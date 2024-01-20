@@ -1,0 +1,195 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2019448531335472968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8604095425685675468}
+  - component: {fileID: 6121997470514972692}
+  m_Layer: 0
+  m_Name: ObstacleSpawner1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8604095425685675468
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019448531335472968}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 30, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6121997470514972692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019448531335472968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9ebb4d6ec60947609c159e8203490c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnProperties:
+    averageSpawnDistance: 1200
+    randomSpawnDistance: 200
+    spawnProperties:
+    - spawn: {fileID: 5900180913222522387, guid: fe70688feb3a84b0f8b15d5a971287da, type: 3}
+      spawnPeriods:
+      - periodStart: 0
+        periodEnd: 2000
+        spawnRate: 20
+      - periodStart: 2000
+        periodEnd: -1
+        spawnRate: 40
+      countDownSize: 100
+      randomFactor: 2
+      xRandom: 0
+      extraSpawnTranslate: {x: 0, y: -15, z: 0}
+    - spawn: {fileID: 5900180913222522387, guid: eba7ab4cd720e4204a22d01fc843167c, type: 3}
+      spawnPeriods:
+      - periodStart: 0
+        periodEnd: 2000
+        spawnRate: 30
+      - periodStart: 2000
+        periodEnd: 6000
+        spawnRate: 60
+      - periodStart: 6000
+        periodEnd: -1
+        spawnRate: 80
+      countDownSize: 100
+      randomFactor: 2
+      xRandom: 0
+      extraSpawnTranslate: {x: 0, y: -15, z: 0}
+    - spawn: {fileID: 4307232243439383291, guid: 18acf3152fb7244028916bc7b5dbf3d9, type: 3}
+      spawnPeriods:
+      - periodStart: 0
+        periodEnd: 1500
+        spawnRate: 30
+      - periodStart: 1500
+        periodEnd: 4000
+        spawnRate: 60
+      - periodStart: 4000
+        periodEnd: 7000
+        spawnRate: 120
+      - periodStart: 7000
+        periodEnd: 12000
+        spawnRate: 150
+      - periodStart: 12000
+        periodEnd: -1
+        spawnRate: 200
+      countDownSize: 100
+      randomFactor: 3
+      xRandom: 1
+      extraSpawnTranslate: {x: 0, y: -10, z: 0}
+    - spawn: {fileID: 801043991964715779, guid: 98ae8c4adac00324fa57addc428a5dde, type: 3}
+      spawnPeriods:
+      - periodStart: 4000
+        periodEnd: 7000
+        spawnRate: 20
+      - periodStart: 7000
+        periodEnd: 10000
+        spawnRate: 40
+      - periodStart: 10000
+        periodEnd: 15000
+        spawnRate: 50
+      - periodStart: 15000
+        periodEnd: -1
+        spawnRate: 60
+      countDownSize: 100
+      randomFactor: 6
+      xRandom: 1
+      extraSpawnTranslate: {x: 0, y: 0, z: 0}
+    - spawn: {fileID: 1826203179473999636, guid: 3b4a1f9fd9dfb4d7fbf146a67b3c5c5e, type: 3}
+      spawnPeriods:
+      - periodStart: 0
+        periodEnd: 3000
+        spawnRate: 20
+      - periodStart: 3000
+        periodEnd: 6000
+        spawnRate: 30
+      - periodStart: 6000
+        periodEnd: -1
+        spawnRate: 40
+      countDownSize: 100
+      randomFactor: 3
+      xRandom: 1
+      extraSpawnTranslate: {x: 0, y: -10, z: 0}
+    - spawn: {fileID: 3941025566079260372, guid: 6c5fb29bcd93e4f8cac2c970b5bf0c74, type: 3}
+      spawnPeriods:
+      - periodStart: 0
+        periodEnd: 3000
+        spawnRate: 50
+      - periodStart: 3000
+        periodEnd: 6000
+        spawnRate: 100
+      - periodStart: 6000
+        periodEnd: 10000
+        spawnRate: 125
+      - periodStart: 10000
+        periodEnd: -1
+        spawnRate: 150
+      countDownSize: 100
+      randomFactor: 2
+      xRandom: 1
+      extraSpawnTranslate: {x: 0, y: 0, z: 0}
+    - spawn: {fileID: 4221260728986737248, guid: 00e1f0c34070f4ead98ccb0062c103d8, type: 3}
+      spawnPeriods:
+      - periodStart: 0
+        periodEnd: 5000
+        spawnRate: 50
+      - periodStart: 5000
+        periodEnd: -1
+        spawnRate: 70
+      countDownSize: 100
+      randomFactor: 2
+      xRandom: 0
+      extraSpawnTranslate: {x: 0, y: 0, z: 0}
+    - spawn: {fileID: 4918768812529937885, guid: 9e56695e2077748bd8ef1f71c34cb51e, type: 3}
+      spawnPeriods:
+      - periodStart: 0
+        periodEnd: -1
+        spawnRate: 25
+      - periodStart: 2000
+        periodEnd: 4000
+        spawnRate: 25
+      countDownSize: 100
+      randomFactor: 3
+      xRandom: 1
+      extraSpawnTranslate: {x: 0, y: 0, z: 0}
+    - spawn: {fileID: 340328759677703117, guid: d20be2ff920264892abeca62c82f3dff, type: 3}
+      spawnPeriods:
+      - periodStart: 2000
+        periodEnd: 2500
+        spawnRate: 25
+      - periodStart: 2500
+        periodEnd: -1
+        spawnRate: 6
+      countDownSize: 100
+      randomFactor: 3
+      xRandom: 1
+      extraSpawnTranslate: {x: 0, y: 0, z: 0}
+    - spawn: {fileID: 1826203179473999636, guid: 8ec35ba4d7f81443c9c085fae830d5bb, type: 3}
+      spawnPeriods:
+      - periodStart: 15000
+        periodEnd: -1
+        spawnRate: 5
+      countDownSize: 100
+      randomFactor: 5
+      xRandom: 1
+      extraSpawnTranslate: {x: 0, y: 0, z: 0}
+  _player: {fileID: 0}
