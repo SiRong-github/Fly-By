@@ -1,26 +1,7 @@
-
-
-**The University of Melbourne**
-# COMP30019 – Graphics and Interaction
-
-## Teamwork plan/summary
-
-<!-- [[StartTeamworkPlan]] PLEASE LEAVE THIS LINE UNTOUCHED -->
-
-<!-- Fill this section by Milestone 1 (see specification for details) -->
-* kevin - initial models, user interface, fog shader, day-night transition, questionnaire evaluation
-* pratika - infinite terrain, player movement
-* william - obstacles, collision detection
-* shanaia - music, particle systems, water shader, observational evaluation
-<!-- [[EndTeamworkPlan]] PLEASE LEAVE THIS LINE UNTOUCHED -->
+## University Subject
+This project was done by a group of 4 students for COMP30019 Graphics and Interaction of the University of Melbourne.
 
 ## Final report
-
-Read the specification for details on what needs to be covered in this report... 
-
-Remember that _"this document"_ should be `well written` and formatted **appropriately**. 
-Below are examples of markdown features available on GitHub that might be useful in your report. 
-For more details you can find a guide [here](https://docs.github.com/en/github/writing-on-github).
 
 ### Table of contents
 * [Game Summary](#game-summary)
@@ -82,9 +63,9 @@ Initially, we sought to generate an endless terrain by the following approach:
 * Generate a Perlin noise mesh of size 1000 X 1000 when the player moves a certain distance forward
 * Apply materials to this mesh
 * Decorate this mesh with houses, trees, etc.
-<br />
+
 After we completed step 1, and could generate noise maps of size 1000 X 1000 as the player moved foward, it became evident that this approach was unsuitable. This is because the noise maps were dynamically created in an update function, and the algorithm to create a noise map is _O(m * n)_ where _m_ is the number of vertices along the x axis, and _n_ is the number of vertices along the z axis. The significant time complexity of this approach caused our game to lag.
-<br />
+
 
 ###### Approach 2: Creating a flat endless terrain, then decorating terrain tiles
 ![Terrain prefab](Assets/infinite%20terrain.PNG)<br/>
@@ -208,49 +189,13 @@ The player usually would play multiple attempts after dying to the tracker obsta
 * Lowered volume of music
 * Modified obstacles to be able to move in the middle of the road
 
-
-
 ### Technologies
 Project is created with:
 * Unity 2022.1.9f1 
 * Ipsum version: 2.33
 * Ament library version: 999
 
-### Using Images
-
-You can include images/gifs by adding them to a folder in your repo, currently `Gifs/*`:
-
-<p align="center">
-  <img src="Gifs/sample.gif" width="300">
-</p>
-
-To create a gif from a video you can follow this [link](https://ezgif.com/video-to-gif/ezgif-6-55f4b3b086d4.mov).
-
-### Code Snippets 
-
-You may wish to include code snippets, but be sure to explain them properly, and don't go overboard copying
-every line of code in your project!
-
-```c#
-public class CameraController : MonoBehaviour
-{
-    void Start ()
-    {
-        // Do something....
-    }
-}
-```
-
 ### References
-* References and external resources that you used.
-https://www.youtube.com/watch?v=EFt_lLVDeRo
-* Endless runner
-https://www.youtube.com/watch?v=RYouWeqZbPc&ab_channel=Quick%27nDirty
-* Perlin noise
-https://en.wikipedia.org/wiki/Perlin_noise
-https://www.youtube.com/watch?v=bG0uEXV6aHQ&ab_channel=Brackeys
-https://www.youtube.com/watch?v=XpG3YqUkCTY&t=92s&ab_channel=Lejynn
-https://www.youtube.com/watch?v=WP-Bm65Q-1Y&t=5s&ab_channel=SebastianLague
 
 Particle Systems
 
@@ -306,6 +251,7 @@ https://www.youtube.com/watch?v=U7833zX-l5c
 https://www.youtube.com/watch?v=s_3nDVNozJs&t=50s
 
 Audio in Unity
+
 https://www.youtube.com/watch?v=J77CMuAwVDY&t=611s
 
 
