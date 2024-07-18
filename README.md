@@ -5,16 +5,7 @@ This project was done by a group of 4 students for COMP30019 Graphics and Intera
 https://sirong-github.github.io/Fly-By/
 
 ### Demo
-
-https://github.com/SiRong-github/Fly-By/assets/62817554/efee9fc7-b46e-4135-949e-7870e24e832e
-
-https://github.com/SiRong-github/Fly-By/assets/62817554/72b65b5f-1d4a-4440-b037-84945e8a5217
-
-https://github.com/SiRong-github/Fly-By/assets/62817554/41d67094-3147-4379-9506-e5dbb8cf2e96
-
-https://github.com/SiRong-github/Fly-By/assets/62817554/3cb14e25-6072-40cd-a6bd-ea7628c704c3
-
-https://github.com/SiRong-github/Fly-By/assets/62817554/3b12d100-2de4-4603-9897-53010c4b89f2
+https://github.com/user-attachments/assets/c2b7ead4-191b-4f2a-a8eb-28f8559787a9
 
 
 ## Final report
